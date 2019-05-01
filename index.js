@@ -19,3 +19,6 @@ function currentLine (line) {
     return "The line is currently:" + line.map (el => " " + (line.indexOf(el) + 1) + ". " + el).toString();
     }
   }
+
+var arr = [];
+currentLine(arr);
