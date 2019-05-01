@@ -23,7 +23,7 @@ function currentLine (line) {
 var arr = [];
 currentLine(arr);
 console.log(currentLine(arr));
-console.log(takeANumber(arr, "John"));
+console.log(takeANumber(arr, 55));
 console.log(takeANumber(arr, "John1"));
 console.log(takeANumber(arr, "John2"));
 console.log(nowServing(arr));
