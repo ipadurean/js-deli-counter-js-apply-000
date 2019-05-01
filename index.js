@@ -26,5 +26,6 @@ console.log(currentLine(arr));
 console.log(takeANumber(arr, "John"));
 console.log(takeANumber(arr, "John1"));
 console.log(takeANumber(arr, "John2"));
+console.log(nowServing(arr));
 console.log(takeANumber(arr, "John3"));
 console.log(takeANumber(arr, "John4"));
