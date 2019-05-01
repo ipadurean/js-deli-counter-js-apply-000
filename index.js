@@ -19,11 +19,11 @@ function currentLine (line) {
     return "The line is currently:" + line.map (el => " " + (line.indexOf(el) + 1) + ". " + el).toString();
     }
   }
-
+var num = 55;
 var arr = [];
 currentLine(arr);
 console.log(currentLine(arr));
-console.log(takeANumber(arr, 55));
+console.log(takeANumber(arr, num));
 console.log(takeANumber(arr, "John1"));
 console.log(takeANumber(arr, "John2"));
 console.log(nowServing(arr));
