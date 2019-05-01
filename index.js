@@ -23,4 +23,3 @@ function currentLine (line) {
 var arr = [];
 currentLine(arr);
 console.log(currentLine(arr));
-
